@@ -30,3 +30,6 @@ rvm install 2.7.1
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
 exec /bin/bash --login
+
+rvm use 2.7.1
+gem install bundler
